@@ -2,7 +2,7 @@ import { useState } from "react";
 import React from "react";
 
 export default function Todoapp() {
-  const [tasks, setTasks] = useState(["Task One", "Task Two", "Task Three"]);
+  const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState("");
 
   function handleOnChange(event) {
